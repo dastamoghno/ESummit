@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">E-Summit</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="body_text">Entrepreneurship Development Cell of NIT Durgapur formerly known as NEN
+                NIT Durgapur Students Chapter is the one and only independent cell of the institute,
+                of national importance, inculcating an entrepreneurial environment across the campus.
+        </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="tab_text_1">#1</string>
+    <string name="tab_text_2">#2</string>
+    <string name="tab_text_3">#3</string>
+    <string name="tab_text_4">#4</string>
+    <string name="tab_text_5">#5</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="default_gallery_storage">My Videos</string>
+    <string name="title_auto_upload">Auto upload</string>
+    <string name="summary_upload_over_wifi">Upload the videos when wifi is available</string>
+    <string name="title_upload_quality">Upload Quality</string>
+    <string name="summary_upload_video_quality">Specify video quality for uploads</string>
+    <string name="pref_title_notifications">Notifications</string>
+    <string name="summary_choose_ringtone">Choose notification sound</string>
+    <string name="pref_header_about">About</string>
+    <string name="summary_about">We are a team of like-minded people, specialized in development of Android App Development creating new trends across the app space. Glad to Help in anyway!</string>
+    <string name="app_version">3.5</string>
+    <string name="summary_support">Got any queries? We are happy to help!</string>
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="title_faq">FAQ</string>
+    <string name="summary_faq">View frequently asked questions</string>
+    <string name="url_faq">https://www.androidhive.info/privacy-policy/</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">https://www.androidhive.info/privacy-policy/</string>
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">https://www.androidhive.info/terms-of-service/</string>
+    <string name="title_version">Version</string>
+    <string name="choose_email_client">Choose email client</string>
+    <string name="title_gallery_storage">Default Storage</string>
+    <string name="title_new_notification_sound">New message notification</string>
+    <string name="title_vibrate">Vibrate</string>
+    <string name="summary_vibrate">Vibrate on new notification</string>
+    <string name="key_upload_over_wifi">key_upload_over_wifi</string>
+    <string name="key_gallery_name">key_gallery_name</string>
+    <string name="key_upload_quality">key_upload_quality</string>
+    <string name="notifications_new_message">notifications_new_message</string>
+    <string name="key_notifications_new_message_ringtone">key_notifications_new_message_ringtone</string>
+    <string name="key_vibrate">key_vibrate</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="contact_info"> Viswambher Kambhampati\n
+\n<b>President\nEntrepreneurship Development Cell
+\nNIT Durgapur
+
+  \n7063282640
+            \nkambhampati.viswambher@gmail.com</b>
+   \n\nRajat Sirsikar\n
+\n<b>Convenor\nEntrepreneurship Development Cell
+\nNIT Durgapur
+
+ \n7063699147
+  \nrajatsirsikar5@gmail.com</b>
+
+ \n\nSocial Media\n</string>
+    <string name="team_members">\n\nSahil Jain\n
+\n<b>Public Relations Officer\nEntrepreneurship Development Cell
+\nNIT Durgapur
+
+ \n9883327091
+  \njainsahil1997@hotmail.com</b></string>
+    <string name="auction_arcadia_info">Do you always bite your nails as you see your favourite IPL team bid for players
+at the auctions? Have you always felt that given the amount of money, you could build a better team?
+Well, E-Summit 2018 gives you the chance to make the IPL team you have always dreamt of…Come
+and put your best bid forward...</string>
+    <string name="startup_workshop_info">You have a start-up idea..But is it feasible? E-Summit 2018 brings to you a
+perfect testing ground for your ideas- the start-up workshop. Lets see how good you are….</string>
+    <string name="panel_discussion_info">Have you ever wondered about the pros and cons of Cryptocurrency?  What if Demonatisation occurs again in India? Wanna know the reasons and problems behind the failure of few start-ups?
+You are at the right place! Know answers for such questions from intellectuals and other economists. Interact with them! So what are you waiting for ? Brace yourself, winter is gone and E-summit is coming!
+</string>
+    <string name="etalks_info">Where better to learn about the challenges of an entrepreneur than from the horse’s
+mouth? This E-Summit 2018, catch the best of the best from the industry…Here is your chance to
+meet highly successful people like Gaurav Kapoor, Prantik Sinha ,Kunal Vora, Ranodeep Saha and
+Shaan Suhas Kumar. So what are you waiting for?</string>
+    <string name="entre_writeup_info">Pen is mightier than the sword…So when you have a ground breaking star-up idea
+or ideas on Green Entrepreneurship write it down and send us an article in about 350-500 words at
+nennitdurgapur@gmail.com or WhatsApp at 9474848809
+And the best articles will get the chance of being showcased on igniting minds web portal(Run by sir
+Kalam&#39;s family)! Exciting prizes for top entries from Igniting Minds
+Who knows may be your writings turn to reality…….</string>
+    <string name="digital_marketing_info">Digital Marketing. Just another fancy word you should use to sound
+smart or is it a real deal? This E-Summit the Digital Marketing workshop conducted by &quot;EI Systems&quot;
+in association with Entrepreneurship Development Cell, NIT Durgapur will help you learn everything
+from Search Engines, Search Marketing, and Paid Advertising to Social Media, and Mobile
+Marketing to Analytics and beyond. Come over and get certificates by &quot;EI Systems&quot; to learn the
+sexiest form of marketing in the 21 st century.</string>
+    <string name="equiz_info">So you are interested in entrepreneurship and have rummaged through the internet learning
+about the ideas and people…Now put all your hard-earned knowledge to use at the E-Quiz brought to
+you by Quizinc in association with Entrepreneurship Development Cell, NIT Durgapur at E-Summit
+2018. Are you up for the challenge?</string>
+    <string name="freemax_info">Always wanted to invest in the stock market? Afraid of losing your money? This E-
+Summit GLUG in association with EDC, NIT Durgapur brings to you FreeMax, the simulated stock
+market where you get to test your investment skills without the monetary risk…So lets see how rich
+you can get…</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawerActivity</string>
+</resources>
+

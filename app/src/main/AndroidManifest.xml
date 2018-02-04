@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edcnitdgp.android.e_summit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/esummit_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/esummit_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".NavigationDrawerActivity"
+            android:label="E-Summit"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EventsActivity"
+            android:label="Events"
+            android:parentActivityName=".NavigationDrawerActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".TeamMembersTabbedActivity"
+            android:label="Our Team"
+            android:parentActivityName=".NavigationDrawerActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="Contact Us"
+            android:parentActivityName=".NavigationDrawerActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="About Us"
+            android:parentActivityName=".NavigationDrawerActivity">
+
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NavigationDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings"
+            android:parentActivityName=".NavigationDrawerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.NavigationDrawerActivity" />
+        </activity>
+        <activity
+            android:name=".WebViewActivity"
+            android:label="Contact Us"
+            android:parentActivityName=".ContactUsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.ContactUsActivity" />
+        </activity>
+        <activity
+            android:name=".AuctionArcadiaActivity"
+            android:label="Auction Arcadia"
+            android:parentActivityName=".EventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.EventsActivity" />
+        </activity>
+        <activity
+            android:name=".StartupWorkshopActivity"
+            android:label="Startup Workshop-Alley"
+            android:parentActivityName=".EventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.EventsActivity" />
+        </activity>
+        <activity
+            android:name=".PanelDiscussionActivity"
+            android:label="Panel Discussion"
+            android:parentActivityName=".EventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.EventsActivity" />
+        </activity>
+        <activity
+            android:name=".EntreWriteupActivity"
+            android:label="Entre-Writeup"
+            android:parentActivityName=".EventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.EventsActivity" />
+        </activity>
+        <activity
+            android:name=".DigitalMarketingWorkshopActivity"
+            android:label="Digital Marketing Workshop"
+            android:parentActivityName=".EventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.EventsActivity" />
+        </activity>
+        <activity
+            android:name=".BizQuizActivity"
+            android:label="Biz Quiz"
+            android:parentActivityName=".EventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.EventsActivity" />
+        </activity>
+        <activity
+            android:name=".TabbedActivity"
+            android:label="E-Talks"
+            android:parentActivityName=".EventsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.EventsActivity" />
+        </activity>
+        <activity
+            android:name=".AssociationsActivity"
+            android:label="Associations"
+            android:parentActivityName=".NavigationDrawerActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.edcnitdgp.android.e_summit.NavigationDrawerActivity" />
+        </activity>
+
+    </application>
+
+</manifest>
