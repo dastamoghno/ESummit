@@ -12,10 +12,8 @@
   See the License for the specific language governing permissions and
   limitations under the License.
   -->
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:backgroundTint="#757575"
@@ -27,9 +25,9 @@
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
-        app:titleTextColor="@android:color/white"
         android:theme="@style/MyTheme.ActionBarStyle"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="@android:color/white" />
 
 
     <ScrollView
@@ -72,8 +70,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:lineSpacingMultiplier="1.2"
-                android:text="@string/contact_info"
                 android:paddingBottom="10dp"
+                android:text="@string/contact_info"
                 android:textColor="#000000" />
 
             <LinearLayout
@@ -84,36 +82,36 @@
                 <ImageButton
                     android:id="@+id/fb_logo"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="30dp"
-                    android:src="@drawable/fblogo"
-                    android:scaleType="fitCenter"
+                    android:layout_weight="1"
+                    android:background="@drawable/fbback"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:background="@drawable/fbback"/>
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/fb_white" />
 
                 <ImageButton
                     android:id="@+id/insta_logo"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="30dp"
-                    android:scaleType="fitCenter"
+                    android:layout_weight="1"
+                    android:background="@drawable/instaback"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:src="@drawable/insta_logo"
-                    android:background="@drawable/instaback"/>
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/insta_white" />
 
 
                 <ImageButton
                     android:id="@+id/youtube_logo"
                     android:layout_width="0dp"
-                    android:layout_weight="1"
                     android:layout_height="30dp"
-                    android:scaleType="fitCenter"
+                    android:layout_weight="1"
+                    android:background="@drawable/youtubeback"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:src="@drawable/youtube_logo"
-                    android:background="@drawable/youtubeback"/>
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/youtube_white" />
 
 
 
